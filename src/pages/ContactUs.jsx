@@ -56,7 +56,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#5A0B73]">Campus Location</h3>
-                  <p className="text-sm text-gray-600">123 Learning Lane, Knowledge Park, Bangalore 560001</p>
+                  <p className="text-sm text-gray-600 leading-tight mt-1">#51/1, 1st Floor, St. Anthony's Church Road,<br/>Beside DA Cyber Cafe, Basavanapura, Bangalore - 560083</p>
                 </div>
               </motion.div>
 
@@ -66,8 +66,8 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#5A0B73]">Call Us</h3>
-                  <p className="text-sm text-gray-600">+91 98765 43210</p>
-                  <p className="text-sm text-gray-600">+91 80 1234 5678</p>
+                  <p className="text-sm text-gray-600">+91 9740174704</p>
+                  <p className="text-sm text-gray-600">+91 9880152862</p>
                 </div>
               </motion.div>
 

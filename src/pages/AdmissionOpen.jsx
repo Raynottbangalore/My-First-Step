@@ -64,7 +64,7 @@ const AdmissionOpen = () => {
                </form>
             </div>
             
-            <p className="text-sm text-gray-500 text-center">For any queries, please call <span className="font-bold text-[#F52F7A]">+91 98765 43210</span></p>
+            <p className="text-sm text-gray-500 text-center">For any queries, please call <span className="font-bold text-[#F52F7A]">+91 9740174704 / +91 9880152862</span></p>
 
           </motion.div>
         </div>

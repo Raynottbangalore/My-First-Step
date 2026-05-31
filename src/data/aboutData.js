@@ -7,6 +7,10 @@ export const aboutData = {
     image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=1920"
   },
   story: "Founded with a passion for early childhood education, My First Step Kids Nursery & Preschool has been a nurturing home for little learners. We believe in providing a holistic environment where children are encouraged to explore, question, and discover the world around them.",
+  history: {
+    title: "3 Years of Excellence",
+    description: "Since our inception three years ago, My First Step has been dedicated to creating a vibrant, nurturing environment where young minds can blossom. What started as a small community of passionate educators has quickly grown into a trusted foundation for early childhood development."
+  },
   visionMission: [
     {
       title: "Our Vision",

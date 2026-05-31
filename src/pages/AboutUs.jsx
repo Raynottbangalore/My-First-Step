@@ -54,6 +54,26 @@ const AboutUs = () => {
         {/* Curved dashed line in center (left on mobile) */}
         <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-2 border-l-4 border-dashed border-white/60 transform -translate-x-1/2"></div>
         
+        {/* Milestone 0: History */}
+        <div className="flex flex-col md:flex-row justify-center md:items-center mb-24 md:mb-32 relative pl-16 md:pl-0">
+          <div className="hidden md:block w-1/2 pr-12"></div>
+          <div className="absolute left-8 md:left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl md:text-5xl text-white drop-shadow-md">
+            <IoFootsteps className="transform rotate-45 scale-x-[-1]" />
+          </div>
+          <div className="w-full md:w-1/2 md:pl-12 text-left">
+            <motion.div 
+              whileInView={{ opacity: 1, x: 0, rotate: 2 }}
+              initial={{ opacity: 0, x: 100 }}
+              className="bg-white p-8 rounded-[3rem] shadow-xl inline-block max-w-md border-4 border-[#FF6B6B]"
+            >
+              <div className="text-5xl text-[#FF6B6B] mb-4 flex justify-start"><FaStar /></div>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#5A0B73] mb-4">History</h2>
+              <h3 className="text-xl font-bold text-[#F52F7A] mb-3">{aboutData.history.title}</h3>
+              <p className="text-gray-700 text-base md:text-lg font-medium">{aboutData.history.description}</p>
+            </motion.div>
+          </div>
+        </div>
+
         {/* Milestone 1: Vision */}
         <div className="flex flex-col md:flex-row justify-center md:items-center mb-24 md:mb-32 relative pl-16 md:pl-0">
           <div className="w-full md:w-1/2 md:pr-12 md:text-right">

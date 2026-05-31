@@ -23,12 +23,12 @@ export const homeData = {
     { title: "Parent Communication", icon: "FaComments", color: "bg-[#9D4EDD]" }
   ],
   programs: [
-    { title: "Playgroup", age: "1.5 - 2.5 Years", color: "bg-[#FFE5D9]" },
-    { title: "Nursery", age: "2.5 - 3.5 Years", color: "bg-[#D8F3DC]" },
-    { title: "Junior KG", age: "3.5 - 4.5 Years", color: "bg-[#CAF0F8]" },
-    { title: "Senior KG", age: "4.5 - 5.5 Years", color: "bg-[#E0AAFF]" },
-    { title: "Day Care", age: "6 Months+", color: "bg-[#FFF3B0]" },
-    { title: "Tuition Classes", age: "1st to 5th Std", color: "bg-[#FFD6A5]" }
+    { title: "Playgroup", age: "1 Year to 3 Years", color: "bg-[#FFE5D9]" },
+    { title: "Nursery", age: "3 Years", color: "bg-[#D8F3DC]" },
+    { title: "Junior KG", age: "4 Years", color: "bg-[#CAF0F8]" },
+    { title: "Senior KG", age: "5 Years", color: "bg-[#E0AAFF]" },
+    { title: "Day Care", age: "", color: "bg-[#FFF3B0]" },
+    { title: "Tuition Classes", age: "", color: "bg-[#FFD6A5]" }
   ],
   testimonials: [
     { name: "Priya Sharma", role: "Parent", text: "My daughter loves going to My First Step. The teachers are incredibly caring and the environment is so positive!" },

@@ -177,9 +177,11 @@ const Home = () => {
                    {idx % 4 === 3 && <FaShieldAlt className="text-[#7AC943]" />}
                 </div>
                 <h3 className="text-3xl font-black text-gray-800 mt-6 mb-3" style={{ fontFamily: "'Baloo 2', cursive" }}>{program.title}</h3>
-                <span className="inline-block bg-white px-4 py-1 rounded-full text-sm font-bold text-gray-700 mb-4 shadow-sm">
-                  {program.age}
-                </span>
+                {program.age && (
+                  <span className="inline-block bg-white px-4 py-1 rounded-full text-sm font-bold text-gray-700 mb-4 shadow-sm">
+                    {program.age}
+                  </span>
+                )}
                 <p className="text-gray-700 font-medium mb-2 leading-tight">A perfect blend of play and structured learning.</p>
               </motion.div>
             ))}

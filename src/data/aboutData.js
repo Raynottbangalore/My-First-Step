@@ -1,3 +1,5 @@
+import directorImg from '../assets/director.png';
+
 export const aboutData = {
   hero: {
     title: "About Us",
@@ -28,15 +30,9 @@ export const aboutData = {
   messages: [
     {
       role: "Director's Message",
-      name: "Mrs. Anjali Sharma",
+      name: "Mary Anupama",
       message: "Welcome to My First Step! We are committed to providing a foundation of excellence for your child. Our dedicated team works tirelessly to ensure that every day is a new adventure in learning.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
-    },
-    {
-      role: "Principal's Message",
-      name: "Mr. Ramesh Kumar",
-      message: "Education in the early years shapes a child's future. Our curriculum is designed to spark curiosity and build confidence, preparing our little ones for the big world ahead.",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80"
+      image: directorImg
     }
   ]
 };

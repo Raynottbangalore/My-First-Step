@@ -129,17 +129,19 @@ const AboutUs = () => {
           >
             <div className="bg-white rounded-[3rem] shadow-2xl p-8 md:p-12 border-4 border-[#7AC943] relative overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-[#7AC943]/20 rounded-bl-full"></div>
-              <h2 className="text-4xl font-bold text-[#5A0B73] mb-12 text-center relative z-10">Leadership Team</h2>
+              <h2 className="text-4xl font-bold text-[#5A0B73] mb-12 text-center relative z-10">Director</h2>
               
-              <div className="grid md:grid-cols-2 gap-12 relative z-10">
+              <div className="max-w-2xl mx-auto relative z-10">
                 {aboutData.messages.map((msg, idx) => (
                   <div key={idx} className="text-center">
-                    <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-[#FFD600] mb-6 shadow-lg">
-                      <img src={msg.image} alt={msg.name} className="w-full h-full object-cover" />
+                    <div className="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-[#FFD600] mb-6 shadow-lg">
+                      <img src={msg.image} alt={msg.role} className="w-full h-full object-cover" />
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-800">{msg.name}</h3>
-                    <p className="text-[#F52F7A] font-bold mb-4">{msg.role}</p>
-                    <p className="text-gray-600 italic">"{msg.message}"</p>
+                    {msg.name && (
+                      <h3 className="text-3xl font-bold text-gray-800 mb-2">{msg.name}</h3>
+                    )}
+                    <p className="text-[#F52F7A] text-lg font-bold mb-4">{msg.role}</p>
+                    <p className="text-gray-600 text-lg italic">"{msg.message}"</p>
                   </div>
                 ))}
               </div>

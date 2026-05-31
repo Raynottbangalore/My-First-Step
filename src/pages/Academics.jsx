@@ -72,7 +72,9 @@ const Academics = () => {
                 >
                   <div className="flex justify-between items-center mb-4">
                     <h2 className={`text-3xl font-black ${program.textColor}`} style={{ fontFamily: "'Baloo 2', cursive" }}>{program.title}</h2>
-                    <span className="bg-white/60 px-4 py-1 rounded-full font-bold text-sm text-gray-800 shadow-sm">{program.age}</span>
+                    {program.age && (
+                      <span className="bg-white/60 px-4 py-1 rounded-full font-bold text-sm text-gray-800 shadow-sm">{program.age}</span>
+                    )}
                   </div>
                   
                   <div className="flex flex-wrap gap-2 mt-auto">

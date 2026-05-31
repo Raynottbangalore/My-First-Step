@@ -9,7 +9,7 @@ export const academicData = {
     {
       id: "playgroup",
       title: "Playgroup",
-      age: "1.5 - 2.5 Years",
+      age: "1 Year to 3 Years",
       focus: ["Social interaction", "Basic motor skills", "Sensory activities", "Language development through rhymes"],
       color: "bg-[#FFE5D9]",
       textColor: "text-[#D96C42]"
@@ -17,7 +17,7 @@ export const academicData = {
     {
       id: "nursery",
       title: "Nursery",
-      age: "2.5 - 3.5 Years",
+      age: "3 Years",
       focus: ["Pre-writing skills", "Alphabet recognition", "Basic numeracy", "Creative arts and crafts"],
       color: "bg-[#D8F3DC]",
       textColor: "text-[#40916C]"
@@ -25,7 +25,7 @@ export const academicData = {
     {
       id: "junior-kg",
       title: "Junior KG",
-      age: "3.5 - 4.5 Years",
+      age: "4 Years",
       focus: ["Phonics and vocabulary", "Basic math concepts", "Environmental awareness", "Independent activities"],
       color: "bg-[#CAF0F8]",
       textColor: "text-[#0077B6]"
@@ -33,7 +33,7 @@ export const academicData = {
     {
       id: "senior-kg",
       title: "Senior KG",
-      age: "4.5 - 5.5 Years",
+      age: "5 Years",
       focus: ["Reading and writing sentences", "Addition and subtraction basics", "Logical thinking", "School readiness"],
       color: "bg-[#E0AAFF]",
       textColor: "text-[#5A189A]"
@@ -41,7 +41,7 @@ export const academicData = {
     {
       id: "day-care",
       title: "Day Care Program",
-      age: "6 Months+",
+      age: "",
       focus: ["Safe and secure environment", "Nutritious meals", "Nap time", "Engaging play sessions"],
       color: "bg-[#FFF3B0]",
       textColor: "text-[#E3B505]"
@@ -49,7 +49,7 @@ export const academicData = {
     {
       id: "tuition",
       title: "Tuition Program",
-      age: "1st to 5th Std",
+      age: "",
       focus: ["Homework assistance", "Concept clarity", "Regular assessments", "Focused attention"],
       color: "bg-[#FFD6A5]",
       textColor: "text-[#E85D04]"
